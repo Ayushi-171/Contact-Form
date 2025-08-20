@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CHALLENGE</title>
+        <link rel="stylesheet" href="challenge.css">
+    </head>
+    <body>
+        <form>
+        <h1>Contact Form</h1>
+        <p class="top"> please fill all the texts in the fields</p>
+        <h2>
+            Your Name: <input placeholder="Enter your full name" type="text" name="your_name" required >
+        </h2>
+        <h2>
+            Your Email: <input placeholder="Enter valid email address" name="address" type="email" id="address" required>
+        </h2>
+        <h2>
+            <div class="subject">
+            Your Subject: <select name="Choose the Subject" id="subject" type="text">
+                <option class="subject" value="">---select a subject---</option>
+                <option value="english">English</option>
+                <option value="physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Maths">Maths</option>
+            </select>
+            </div>
+        </h2>
+        <h2>
+            Your Phone Number: <input placeholder="Enter your phone number" name="number" type="phone_number" id="phone_number">
+        </h2>
+        <h2>
+            Your Message: <input placeholder="Type your message here" name="message" id="message" type="text">
+        </h2>
+        <input class="submit" type="submit" value="SUBMIT">
+    
+    </form>
+    </body>
+</html>
