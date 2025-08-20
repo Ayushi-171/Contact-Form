@@ -1,2 +1,2 @@
-# Just-added
-there are files which shows how far I've come and how close I am to my goal.
+# Contact-form
+This repo contain the project of a form. It is a basic contact form.
